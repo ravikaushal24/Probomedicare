@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book a Probomedicare Appointment</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Quicksand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="bookanappointment.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  <body>
+   
+              
+    <div class="testbox">
+    <form action="/">
+      <div class="banner">
+        <h1>Book a  Probomedicare Appointment</h1>
+        </div>
+        <h3> None of the information in this form will go out to the general public, and it will only be used for contact purposes and for booking the appointment.</h3>
+      <div class="item">
+        <p>First Name:<span class="required">*</span></p>
+        <input type="text" name="first name" required/>
+      <p>Last Name:<span class="required">*</span></p>
+      <input type="text" name="last name" required/>
+      </div>
+      <div class="item">
+        <p>Work Phone:<span class="required">*</span></p>
+        <input type="text" name="name" required/>
+      </div>
+      <div class="item">
+        <p>Preferred Email:<span class="required">*</span></p>
+        <input type="text" name="name" required/>
+      </div>
+
+      <div class="item">
+       <p>Reason for the visit:<span class="required">*</span></p>
+          <textarea rows="3" required></textarea>
+          <small>If it is a normal checkup, please write "checkup" in the blank.</small>
+
+      <div class="item">
+        <p>Date of Visit:<span class="required">*</span></p>
+        <input type="date"name="bdate" required/>
+        <i class="fas fa-calendar-alt"></i>
+      </div>
+      <div class="item">
+       <p>Time of Visit:<span class="required">*</span></p>
+                 <select required>
+            <option value="">Time</option>
+            <option value="1">9:00-9:30</option>
+            <option value="2">9:30-10:00</option>
+            <option value="3">10:00-10:30</option>
+            <option value="4">10:30-11:00</option>
+            <option value="5">11:00-11:30</option>
+            <option value="6">11:30-12:00</option>
+            <option value="7">2:00-2:30</option>
+            <option value="8">2:30-3:00</option>
+            <option value="9">3:00-3:30</option>
+            <option value="10">3:30-4:00</option>
+            <option value="11">4:30-5:00</option>
+          </select>
+          <small>All times listed above are in Eastern Time (EST)</small>
+         </div>
+          
+          <div class="item">
+      
+        <p>Country:<span class="required">*</span></p>
+                 <select required>
+            <option value="1">United States of America (USA)</option>
+            <option value="1">Canada</option>
+            <option value="1">India</option>
+             </select>
+         </div>
+         <div class="question">
+        <p>Gender:<span class="required">*</span></p>
+        <div class="question-answer">
+          <input type="radio" value="none" id="radio_3" name="co-investigator" required/>
+          <label for="radio_3" class="radio"><span>Male</span></label>
+          <input type="radio" value="none" id="radio_4" name="co-investigator" required/>
+          <label for="radio_4" class="radio"><span>Female</span></label>
+          <input type="radio" value="none" id="radio_5" name="co-investigator" required/>
+          <label for="radio_5" class="radio"><span>Other</span></label>
+        </div>
+              <div class="question">
+        <p>Preferred doctor:<span class="required">*</span></p>
+        <small> Choose a founding doctor or a head doctor below. Information on the founding doctors can be found on our "About" page. </small>
+        <div class="question-answer checkbox-item">
+          <div>
+            <input type="checkbox" value="none" id="check_1" name="checklist" required/>
+            <label for="check_1" class="check"><span>Dr. Sigmann</span></label>
+          </div>
+          <div>
+            <input type="checkbox" value="none" id="check_2" name="checklist" required/>
+            <label for="check_2" class="check"><span>Dr. Zhang </span></label>
+          </div>
+          <div>
+            <input type="checkbox" value="none" id="check_3" name="checklist" required/>
+            <label for="check_3" class="check"><span>Dr. Mangan</span></label>
+          </div>
+          <div>
+            <input type="checkbox" value="none" id="check_4" name="checklist" required/>
+            <label for="check_4" class="check"><span>Dr. Miles</span></label>
+            </div>
+             <div>
+            <input type="checkbox" value="none" id="check_5" name="checklist" required/>
+            <label for="check_5" class="check"><span>Dr. Brayson</span></label>
+            </div>
+          <div>
+            <input type="checkbox" value="none" id="check_5" name="checklist" required/>
+            <label for="check_5" class="check"><span>No preference</span></label><br>
+            <small>Note: You may select multiple doctors, but we cannot guarentee that you will get the doctor of your choice because of possible time conflicts. You could either visit the founding doctor you chose, a doctor who works under the founding doctor, or another doctor that you did not choose. We will try our best to cater to your needs and allow you to have the best possible experience.</small>
+          </div>
+          <div class="item">
+          <p>Any questions or concerns?<span class="required">*</span></p>
+          <textarea rows="3" required></textarea>
+          <small>Please write N/A if there are no questions or concerns.</small>
+        </div>
+
+        <div class="question">
+          <p>By signing this form, you must understand that we will try to help you, the patient, in any way possible, however, we are not responsible for any potential injuries or accidents that may occur.<span class="required">*</span></p>
+          <div class="question-answer checkbox-item">
+            <div>
+              <input type="checkbox" value="none" id="check_9" name="check" required/>
+              <label for="check_9" class="check"><span>I agree.</a></span></label>
+            </div>
+          </div>
+        </div>
+        <div class="btn-block">
+          <button type="submit" href="/">Book Appointment</button>
+        </div>
+      <section>
+   <footer class="footer-distributed">
+
+			<div class="footer-left">
+          <img src="logo.png">
+				<h3>Links and Contact Information</span></h3>
+
+				<p class="footer-links">
+					<a href="index.html">HOME</a>
+					|
+					<a href="About.html">ABOUT</a>
+					|
+          <a href="ContactUs.html">CONTACT US</a>
+          |
+					<a href="FAQ.html">FAQ</a>
+          |
+          <a href="Blog.html">BLOG</a>
+          |
+          <a href="bookanappointment.html">BOOK AN APPOINTMENT</a>
+				</p>
+
+
+				<p class="footer-company-name">All Rights Reserved © 2024  Probomedicare</p>
+			</div>
+
+				</div>
+			</div>
+		</footer>
+</section>
+    </form>
+    </div>
+  </body>
+</html>
